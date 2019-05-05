@@ -81,6 +81,8 @@ USER $NB_USER
 
 RUN conda install nb_conda_kernels
 
+RUN pip install git+https://github.com/NCAR/intake-thredds
+
 #RUN conda install jupyter-server-proxy
 
 #RUN conda install h5netcdf

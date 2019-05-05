@@ -1,4 +1,4 @@
-name: nimbus 
+name: pyAODN 
 channels:
   - conda-forge
 dependencies:
@@ -37,8 +37,10 @@ dependencies:
   - pandas=0.24.1
   - geopandas=0.4.0
   - rasterio=1.0.18
+  - siphon
   - pip
   - pip:
     - sat-search==0.2.0
     - jupyter-server-proxy
     - dask-labextension==0.3.1
+    - git+https://github.com/NCAR/intake-thredds
