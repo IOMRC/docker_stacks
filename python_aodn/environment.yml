@@ -21,6 +21,7 @@ dependencies:
   - nb_conda_kernels
   - zarr=2.2.0 
   - dask=1.1
+  - dask-jobqueue
   - distributed=1.25.2
   - matplotlib=3.0
   - jupyter=1.0.0
